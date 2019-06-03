@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.testscripts.TC3">
+        <methods>
+          <include name="videoplayLike"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC3 -->
+      <class name="org.testing.testscripts.TC4">
+        <methods>
+          <include name="videoplaySubscribe"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC4 -->
+      <class name="org.testing.testscripts.TC2">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="signinSubscription"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC2 -->
+      <class name="org.testing.testscripts.TC1">
+        <methods>
+          <include name="signinTrending"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
