@@ -28,6 +28,7 @@ public class TC2 extends Base
 	  Screenshots.takescreenshot(driver, "F:\\Eclipse\\screenshots\\TC2.png");
 	  Logs.takelogs("TC2", "TC2 pass");
 	  
+	  
   }
   catch(Exception e)
 	 {

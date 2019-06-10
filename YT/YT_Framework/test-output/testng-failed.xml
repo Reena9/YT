@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite1]">
+  <test name="Command line test d92d08ae-6f08-4747-8451-bb53527b361e(failed)">
     <classes>
+      <class name="org.testing.testscripts.TC3">
+        <methods>
+          <include name="videoplayLike"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC3 -->
+      <class name="org.testing.testscripts.TC4">
+        <methods>
+          <include name="videoplaySubscribe"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC4 -->
+      <class name="org.testing.testscripts.TC2">
+        <methods>
+          <include name="signinSubscription"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC2 -->
       <class name="org.testing.testscripts.TC1">
         <methods>
           <include name="browserlaunch"/>
@@ -10,5 +25,5 @@
         </methods>
       </class> <!-- org.testing.testscripts.TC1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Command line test d92d08ae-6f08-4747-8451-bb53527b361e(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

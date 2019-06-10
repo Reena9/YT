@@ -27,6 +27,7 @@ public class TC4 extends Base
 	
 	  
 	  Thread.sleep(1000);
+	
 	 
 	  WebElement Subscribe=driver.findElement(By.xpath(pr.getProperty("Subscribe")));
 	     Subscribe.click();

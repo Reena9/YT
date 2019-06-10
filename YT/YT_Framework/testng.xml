@@ -6,7 +6,6 @@
       <class name="org.testing.testscripts.TC2"/>
       <class name="org.testing.testscripts.TC1"/>
       <class name="org.testing.testscripts.TC4"/>
-      <class name="YT_Framework.YT_Framework.AppTest"/>
       <class name="org.testing.testscripts.TC3"/>
     </classes>
   </test> <!-- Test -->
